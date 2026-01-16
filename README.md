@@ -42,9 +42,9 @@ Datasets were provided as part of the **Codebasics Resume Project Challenge #18*
 > Raw data was cleaned in Python and exported as clean CSVs for modeling in Power BI.
 
 ---
-## Data Files
+## Python notebooks
 
-This repository includes the cleaned datasets used in the dashboard (and/or the cleaning notebook) so the project is reproducible.
+This repository includes the cleaned datasets used in the dashboard and the cleaning notebook so the project is reproducible.
 
 Suggested structure:
 
