@@ -1,7 +1,8 @@
 # QuickBite Express — Crisis Recovery Insights Dashboard (Codebasics RPC #18)
 
-### Dashboard Link:
- https://lnkd.in/e8viBg5y
+## Power BI Dashboard
+- **PBIX (download):** `Dashboard/Quickbite crisis project.pbix` (GitHub won’t preview PBIX files in-browser)
+- **PDF (preview):** https://lnkd.in/e8viBg5y
 
 ## Dashboard Preview:
 <img width="1295" height="752" alt="Image" src="https://github.com/user-attachments/assets/bbceef93-6f7d-437c-be4d-9b54c4180e25" />
@@ -39,15 +40,12 @@ Datasets were provided as part of the **Codebasics Resume Project Challenge #18*
 - Customers, restaurants, delivery partners, menu items
 - Supporting metadata documents
 
-> Raw data was cleaned in Python and exported as clean CSVs for modeling in Power BI.
+Raw data was cleaned in Python and exported as clean CSVs for modeling in Power BI.
 
 ---
 ## Python notebooks
 
 This repository includes the cleaned datasets used in the dashboard and the cleaning notebook so the project is reproducible.
-
-Suggested structure:
-
 
 ---
 
@@ -67,7 +65,7 @@ Suggested structure:
 - Exported clean files as `*_clean.csv`
 
 Notebook:
-- `notebooks/data understanding and cleaning.ipynb`
+- `python Notebooks/data understanding and cleaning.ipynb`
 
 ### 2) Data Modeling & Dashboarding (Power BI)
 - Imported cleaned CSVs and built a star-schema style model (facts + dimensions)
@@ -138,7 +136,6 @@ Notebook:
 
 ## Future Improvements
 
-- Add a **Recovery Phase** tracking layer (post-Sep 2025) with cohort-based reactivation metrics
 - Build a churn prediction model (Logistic/XGBoost) using order + delay + sentiment signals
 - Add “restaurant risk score” combining cancellations, ratings, and SLA breaches
 - Automate refresh using scheduled pipelines (Power BI Service + dataflow)
