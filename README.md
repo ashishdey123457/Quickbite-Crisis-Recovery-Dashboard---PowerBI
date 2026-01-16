@@ -40,15 +40,12 @@ Datasets were provided as part of the **Codebasics Resume Project Challenge #18*
 - Customers, restaurants, delivery partners, menu items
 - Supporting metadata documents
 
-> Raw data was cleaned in Python and exported as clean CSVs for modeling in Power BI.
+Raw data was cleaned in Python and exported as clean CSVs for modeling in Power BI.
 
 ---
 ## Python notebooks
 
 This repository includes the cleaned datasets used in the dashboard and the cleaning notebook so the project is reproducible.
-
-Suggested structure:
-
 
 ---
 
@@ -68,7 +65,7 @@ Suggested structure:
 - Exported clean files as `*_clean.csv`
 
 Notebook:
-- `notebooks/data understanding and cleaning.ipynb`
+- `python Notebooks/data understanding and cleaning.ipynb`
 
 ### 2) Data Modeling & Dashboarding (Power BI)
 - Imported cleaned CSVs and built a star-schema style model (facts + dimensions)
@@ -139,7 +136,6 @@ Notebook:
 
 ## Future Improvements
 
-- Add a **Recovery Phase** tracking layer (post-Sep 2025) with cohort-based reactivation metrics
 - Build a churn prediction model (Logistic/XGBoost) using order + delay + sentiment signals
 - Add “restaurant risk score” combining cancellations, ratings, and SLA breaches
 - Automate refresh using scheduled pipelines (Power BI Service + dataflow)
