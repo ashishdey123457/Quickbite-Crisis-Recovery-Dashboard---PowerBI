@@ -1,7 +1,7 @@
 # QuickBite Express — Crisis Recovery Insights Dashboard (Codebasics RPC #18)
 
 ### Dashboard Link:
-(Add your Power BI public link here)
+file:///C:/Users/joy12/Projects_for_resume/Quickbite_project/Quickbite%20crisis%20project.pdf
 
 ## Dashboard Preview:
 <img width="1295" height="752" alt="Image" src="https://github.com/user-attachments/assets/bbceef93-6f7d-437c-be4d-9b54c4180e25" />
