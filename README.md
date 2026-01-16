@@ -1,7 +1,8 @@
 # QuickBite Express — Crisis Recovery Insights Dashboard (Codebasics RPC #18)
 
-### Dashboard Link:
- https://lnkd.in/e8viBg5y
+## Power BI Dashboard
+- **PBIX (download):** `dashboard/QuickBite.pbix` (GitHub won’t preview PBIX files in-browser)
+- **PDF (preview):** https://lnkd.in/e8viBg5y
 
 ## Dashboard Preview:
 <img width="1295" height="752" alt="Image" src="https://github.com/user-attachments/assets/bbceef93-6f7d-437c-be4d-9b54c4180e25" />
